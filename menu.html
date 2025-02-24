@@ -19,26 +19,33 @@
     <section>
         <h2>Our Delicious Items</h2>
         <div class="menu-items">
-            <div class="item"><img src="burger.jpg" alt="Burger"><p>Burger - $10</p></div>
-            <div class="item"><img src="pizza.jpg" alt="Pizza"><p>Pizza - $12</p></div>
-            <div class="item"><img src="pasta.jpg" alt="Pasta"><p>Pasta - $9</p></div>
-            <div class="item"><img src="salad.jpg" alt="Salad"><p>Salad - $8</p></div>
-            <div class="item"><img src="soup.jpg" alt="Soup"><p>Soup - $7</p></div>
-            <div class="item"><img src="steak.jpg" alt="Steak"><p>Steak - $20</p></div>
-            <div class="item"><img src="sushi.jpg" alt="Sushi"><p>Sushi - $15</p></div>
-            <div class="item"><img src="tacos.jpg" alt="Tacos"><p>Tacos - $10</p></div>
-            <div class="item"><img src="fries.jpg" alt="Fries"><p>Fries - $5</p></div>
-            <div class="item"><img src="dessert.jpg" alt="Dessert"><p>Dessert - $6</p></div>
+            <div class="item"><img src="images/burger.jpg" alt="Burger"><p>Burger - $10</p></div>
+            <div class="item"><img src="images/pizza.jpg" alt="Pizza"><p>Pizza - $12</p></div>
+            <div class="item"><img src="images/pasta.jpg" alt="Pasta"><p>Pasta - $9</p></div>
+            <div class="item"><img src="images/salad.jpg" alt="Salad"><p>Salad - $8</p></div>
+            <div class="item"><img src="images/soup.jpg" alt="Soup"><p>Soup - $7</p></div>
+            <div class="item"><img src="images/steak.jpg" alt="Steak"><p>Steak - $20</p></div>
+            <div class="item"><img src="images/sushi.jpg" alt="Sushi"><p>Sushi - $15</p></div>
+            <div class="item"><img src="images/tacos.jpg" alt="Tacos"><p>Tacos - $10</p></div>
+            <div class="item"><img src="images/fries.jpg" alt="Fries"><p>Fries - $5</p></div>
+            <div class="item"><img src="images/dessert.jpg" alt="Dessert"><p>Dessert - $6</p></div>
+            
         </div>
     </section>
     <section>
         <h2>Order Now</h2>
-        <form id="order-form" action="#" method="POST">
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" required>
+        <form id="order-form">
+            <label for="name">Your Name:
+            </label>
+            <input type="text" id="name" placeholder="Enter your name" required>
             
+            <label for="phone">Your Phone:
+            </label>
+            <input type="text" id="name" placeholder="Phone" required>
+
             <label for="food">Select Food Item:</label>
             <select id="food">
+                <option>Select</option>
                 <option>Burger</option>
                 <option>Pizza</option>
                 <option>Pasta</option>
