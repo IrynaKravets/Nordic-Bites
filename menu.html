@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Our Menu</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="info.html">Address & Info</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Our Delicious Items</h2>
+        <div class="menu-items">
+            <div class="item"><img src="burger.jpg" alt="Burger"><p>Burger - $10</p></div>
+            <div class="item"><img src="pizza.jpg" alt="Pizza"><p>Pizza - $12</p></div>
+            <div class="item"><img src="pasta.jpg" alt="Pasta"><p>Pasta - $9</p></div>
+            <div class="item"><img src="salad.jpg" alt="Salad"><p>Salad - $8</p></div>
+            <div class="item"><img src="soup.jpg" alt="Soup"><p>Soup - $7</p></div>
+            <div class="item"><img src="steak.jpg" alt="Steak"><p>Steak - $20</p></div>
+            <div class="item"><img src="sushi.jpg" alt="Sushi"><p>Sushi - $15</p></div>
+            <div class="item"><img src="tacos.jpg" alt="Tacos"><p>Tacos - $10</p></div>
+            <div class="item"><img src="fries.jpg" alt="Fries"><p>Fries - $5</p></div>
+            <div class="item"><img src="dessert.jpg" alt="Dessert"><p>Dessert - $6</p></div>
+        </div>
+    </section>
+    <section>
+        <h2>Order Now</h2>
+        <form id="order-form" action="#" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" required>
+            
+            <label for="food">Select Food Item:</label>
+            <select id="food">
+                <option>Burger</option>
+                <option>Pizza</option>
+                <option>Pasta</option>
+                <option>Salad</option>
+                <option>Soup</option>
+                <option>Steak</option>
+                <option>Sushi</option>
+                <option>Tacos</option>
+                <option>Fries</option>
+                <option>Dessert</option>
+            </select>
+            
+            <button type="submit">Order</button>
+        </form>
+    </section>
+</body>
+</html>
